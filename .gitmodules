@@ -1,0 +1,3 @@
+[submodule "vendor/assets/Pushpop"]
+	path = vendor/assets/Pushpop
+	url = git@github.com:entropillc/Pushpop.git
