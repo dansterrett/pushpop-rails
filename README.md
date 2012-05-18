@@ -8,12 +8,12 @@ Installation
 
 Add the following to your Gemfile
 
-  gem "push_pop-rails", :git => ''
+    gem "push_pop-rails", :git => ''
 
 Then install the bundle
 
-  bundle install
+    bundle install
   
 Finally, run the install generator
 
-  rails g pushpop:install
+    rails g pushpop:install
