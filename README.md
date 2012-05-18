@@ -8,7 +8,7 @@ Installation
 
 Add the following to your Gemfile
 
-    gem "push_pop-rails", :git => 'git://github.com/entropillc/PushPop-Rails.git'
+    gem "push_pop-rails", :git => "git://github.com/entropillc/PushPop-Rails.git"
 
 Then install the bundle
 
