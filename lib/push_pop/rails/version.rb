@@ -1,3 +1,5 @@
-module PushPopRails
-  VERSION = "0.0.1"
+module PushPop
+  module Rails
+    VERSION = "0.0.1"
+  end
 end

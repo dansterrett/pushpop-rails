@@ -5,12 +5,11 @@ module PushPop
     class InstallGenerator < ::Rails::Generators::Base
       
       def add_javascript
-        insert_into_file "app/assets/javascripts/application.js","//= require externals/plupload/js/plupload.full\n", :before => "//= require_tree ."
-        insert_into_file "app/assets/javascripts/application.js","//= require uploadkit\n", :before => "//= require_tree ."
+        insert_into_file "app/assets/javascripts/application.js","//= require pushpop_rails\n", :before => "//= require_tree ."
       end
       
       def add_css
-        insert_into_file "app/assets/stylesheets/application.css", " *= require uploadkit\n", :after => "require_self\n"
+        insert_into_file "app/assets/stylesheets/application.css", " *= require pushpop_rails\n", :after => "*= require_tree .\n"
       end
       
     end
