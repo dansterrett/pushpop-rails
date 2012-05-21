@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "A Ruby on Rails gem that integrates Entropi Software's PushPop framework developed by Justin D'Arcangelo in to the asset pipeline"
   s.description = "A Ruby on Rails gem that integrates Entropi Software's PushPop framework developed by Justin D'Arcangelo"
 
-  s.files = Dir["lib/**/*"] + ["Rakefile", "README.rdoc"]
+  s.files = Dir["lib/**/*"] + ["Rakefile", "README.md"]
   s.files += [
               "vendor/assets/Pushpop/externals/scrollkit/scrollkit.css",
               "vendor/assets/Pushpop/externals/scrollkit/scrollkit.js",
