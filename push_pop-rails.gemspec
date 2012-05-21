@@ -23,7 +23,9 @@ Gem::Specification.new do |s|
               "vendor/assets/Pushpop/pushpop-tableview/pushpop-tableview.css",
               "vendor/assets/Pushpop/pushpop-tableview/pushpop-tableview.js",
               "vendor/assets/Pushpop/pushpop-navigationbar/pushpop-navigationbar.css",
-              "vendor/assets/Pushpop/pushpop-navigationbar/pushpop-navigationbar.js"
+              "vendor/assets/Pushpop/pushpop-navigationbar/pushpop-navigationbar.js",
+              "vendor/assets/javascripts/pushpop_rails.js",
+              "vendor/assets/stylesheets/pushpop_rails.css"
             ]
 
   s.add_dependency "rails", ">= 3.1.0"
