@@ -3,6 +3,8 @@ PushPop-Rails
 
 PushPop-Rails integrates Entropi's Pushpop HTML5 Web Development Framework in to the Rails Asset Pipeline. For more information on the Pushpop framework, please [view the Pushpop project page](https://github.com/entropillc/Pushpop) on GitHub
 
+PushPop-Rails also requires use of Twitter's Bootstrap CSS Framework. You can either install this manually including the Twitter Bootstrap files that you need, or you can use [Entropi Software's Bootstrapped](https://github.com/entropillc/bootstrapped) gem to integrate Less and Twitter Bootstraps CSS and Javascript files in to your project. For more information on [Bootstrapped](https://github.com/entropillc/bootstrapped), please visit its repo on github.
+
 Installation
 -------------
 
