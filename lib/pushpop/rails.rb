@@ -1,4 +1,4 @@
-module PushPop
+module Pushpop
   module Rails
 
   end
