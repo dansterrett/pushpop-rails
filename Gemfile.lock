@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    push_pop-rails (0.0.1)
+    pushpop-rails (0.0.1)
       rails (>= 3.1.0)
 
 GEM
@@ -92,4 +92,4 @@ PLATFORMS
 
 DEPENDENCIES
   jquery-rails
-  push_pop-rails!
+  pushpop-rails!
