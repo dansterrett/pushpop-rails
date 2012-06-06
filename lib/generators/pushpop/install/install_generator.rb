@@ -1,6 +1,6 @@
 require 'rails/generators/base'
 
-module PushPop
+module Pushpop
   module Generators
     class InstallGenerator < ::Rails::Generators::Base
       

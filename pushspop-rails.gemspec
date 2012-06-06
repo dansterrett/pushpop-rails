@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "push_pop/rails/version"
+require "pushpop/rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "push_pop-rails"
-  s.version     = PushPop::Rails::VERSION
+  s.name        = "pushpop-rails"
+  s.version     = Pushpop::Rails::VERSION
   s.authors     = ["Nicholas W. Watson"]
   s.email       = ["nick@entropi.co"]
   s.homepage    = "http://github.com/entropillc/PushPop-Rails"

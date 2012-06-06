@@ -1,16 +1,14 @@
-PushPop-Rails
+pushpop-rails
 =============
 
-PushPop-Rails integrates Entropi's Pushpop HTML5 Web Development Framework in to the Rails Asset Pipeline. For more information on the Pushpop framework, please [view the Pushpop project page](https://github.com/entropillc/Pushpop) on GitHub
-
-PushPop-Rails also requires use of Twitter's Bootstrap CSS Framework. You can either install this manually including the Twitter Bootstrap files that you need, or you can use [Entropi Software's Bootstrapped](https://github.com/entropillc/bootstrapped) gem to integrate Less and Twitter Bootstraps CSS and Javascript files in to your project. For more information on [Bootstrapped](https://github.com/entropillc/bootstrapped), please visit its repo on github.
+pushpop-rails integrates Entropi's Pushpop HTML5 Web Development Framework in to the Rails Asset Pipeline. For more information on the Pushpop framework, please [view the Pushpop project page](https://github.com/entropillc/Pushpop) on GitHub
 
 Installation
 -------------
 
 Add the following to your Gemfile
 
-    gem "push_pop-rails", :git => "git://github.com/entropillc/PushPop-Rails.git"
+    gem "pushpop-rails", :git => "git://github.com/entropillc/pushpop-rails.git"
 
 Then install the bundle
 
@@ -18,12 +16,12 @@ Then install the bundle
   
 Finally, run the install generator
 
-    rails g push_pop:install
+    rails g pushpop:install
     
-Understanding PushPop-Rails
+Understanding pushpop-rails
 -------------
 
-PushPop-Rails provides a way for easy integration between PushPop and the Rails asset pipeline. If you are using the source of this gem, the Pushpop project is stored under vendor/assets/Pushpop. When working with the source, make sure to initialize all git submodules
+pushpop-rails provides a way for easy integration between PushPop and the Rails asset pipeline. If you are using the source of this gem, the Pushpop project is stored under vendor/assets/Pushpop. When working with the source, make sure to initialize all git submodules
 
     git submodule update --init --recurisve
     
